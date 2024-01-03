@@ -5,11 +5,34 @@ git config --global user.email “[valid-email]”
 --inicia repositorio
 $ git init
 
+--adicionar staging area
+$ git add .
+$ git add <file-name-1> <file-name-2>
+
+--commita com mensagem
+$ git commit -m “<commit-message>”
+
+--add e comita
+$ git commit -am “<commit-message>”
+
+--joga pra online
+$ git push  
+$ git push <remote> <branch-name>
+
 --copia repo de online
 $ git clone <git-repo-url>
+
+A diferença é que o git clone irá clonar o repositório para a sua máquina local, criando uma pasta com os arquivos do repositório, e um arquivo .git. Já o git pull você roda dentro de um repositório já clonado, o que fará com que os arquivos presentes sejam atualizados com as alterações.
+
+--baixa do online
+$ git pull or $ git pull <remote> 
+$ git pull <remote> <branch-name>
+
 
 --cria branch novo
 $ git branch <branch-name>
 
 --trocar de branch
 $ git checkout <branch-name>
+
+
