@@ -1,0 +1,15 @@
+--configuracoes iniciais
+git config --global user.name “[firstname lastname]”
+git config --global user.email “[valid-email]”
+
+--inicia repositorio
+$ git init
+
+--copia repo de online
+$ git clone <git-repo-url>
+
+--cria branch novo
+$ git branch <branch-name>
+
+--trocar de branch
+$ git checkout <branch-name>
