@@ -29,9 +29,11 @@ A diferença é que o git clone irá clonar o repositório para a sua máquina l
 $ git pull or $ git pull <remote> 
 $ git pull <remote> <branch-name>
 
-
 --cria branch novo
 $ git branch <branch-name>
+
+--cria branch e da checkout para ela
+$ git checkout -b branch_ajuste
 
 --trocar de branch
 $ git checkout <branch-name>
