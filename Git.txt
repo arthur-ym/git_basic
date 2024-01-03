@@ -21,6 +21,7 @@ $ git push <remote> <branch-name>
 
 --copia repo de online
 $ git clone <git-repo-url>
+$ git clone -branch <branch_name> <repo_url>
 
 A diferença é que o git clone irá clonar o repositório para a sua máquina local, criando uma pasta com os arquivos do repositório, e um arquivo .git. Já o git pull você roda dentro de um repositório já clonado, o que fará com que os arquivos presentes sejam atualizados com as alterações.
 
